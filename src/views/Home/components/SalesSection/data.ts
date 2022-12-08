@@ -30,7 +30,7 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
   bodyText: t('MindchainSwap has offered so exciting features to earn passive from Mindchain.'),
   reverse: true,
   primaryButton: {
-    to: 'https://defi.mindchain.info',
+    to: 'https://mindchainwallet.com/login',
     text: t('Join Now'),
     external: false,
   },

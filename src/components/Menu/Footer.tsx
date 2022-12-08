@@ -48,9 +48,9 @@ const Footer: React.FC<React.PropsWithChildren<{ variant?: FooterVariant; helpUr
     <Wrapper $isSide={isSide}>
       <Flex flexDirection={isSide ? 'column' : ['column', 'column', 'row']} alignItems="center">
         <ButtonMenu variant="subtle" scale="sm" activeIndex={0}>
-          <ButtonMenuItem>V2</ButtonMenuItem>
-          <ButtonMenuItem as="a" href="https://v1exchange.pancakeswap.finance/#/">
-            {t('V1 (old)')}
+          <ButtonMenuItem>Join</ButtonMenuItem>
+          <ButtonMenuItem as="a" href="https://mindchainwallet.com/login" target="_blank">
+            {t('DeFi')}
           </ButtonMenuItem>
         </ButtonMenu>
         <LinkExternal
@@ -71,8 +71,8 @@ const Footer: React.FC<React.PropsWithChildren<{ variant?: FooterVariant; helpUr
         justifyContent={['center', 'center', 'center', 'flex-end']}
       >
         <BubbleWrapper>
-          <Button id="clickExchangeHelp" as="a" external href={helpUrl} variant="subtle">
-            {t('Need help ?')}
+          <Button id="clickExchangeHelp" as="a" external href="https://mindchain.info/contact-us/" variant="subtle">
+            {t('Contact us')}
           </Button>
           <Svg viewBox="0 0 16 16">
             <path d="M0 16V0C0 0 3 1 6 1C9 1 16 -2 16 3.5C16 10.5 7.5 16 0 16Z" />

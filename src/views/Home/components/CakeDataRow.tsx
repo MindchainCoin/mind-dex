@@ -172,18 +172,18 @@ const CakeDataRow = () => {
       </StyledColumn>
       <StyledColumn style={{ gridArea: 'd' }}>
         <Text color="textSubtle">{t('Blockchain')}</Text>
-          <Heading scale="lg">{t('Mindchain')}</Heading>
+          <Heading scale="lg">{t('Binance')}</Heading>
         
           {/* <Skeleton height={24} width={126} my="4px" /> */}
   
       </StyledColumn>
       <StyledColumn style={{ gridArea: 'e' }}>
         <Text color="textSubtle">{t('Maximum Farming APY')}</Text>
-        <Heading scale="lg">{t('14.96%')}</Heading>
+        <Heading scale="lg">{t('21.9%')}</Heading>
       </StyledColumn>
       <StyledColumn style={{ gridArea: 'f' }}>
         <Text color="textSubtle">{t('Minimum Farming APY')}</Text>
-        <Heading scale="lg">{t('21.9%')}</Heading>
+        <Heading scale="lg">{t('14.96%')}</Heading>
       </StyledColumn>
     </Grid>
   )
