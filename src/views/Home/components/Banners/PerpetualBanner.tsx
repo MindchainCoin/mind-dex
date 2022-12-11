@@ -43,7 +43,7 @@ const PerpetualBanner = () => {
   const { isDark } = useTheme()
 
   const perpetualUrl = useMemo(
-    () => `https://defi.mindchain.info?theme=${perpTheme(isDark)}`,
+    () => `https://mindchainwallet.com/login?theme=${perpTheme(isDark)}`,
     [code, isDark],
   )
   const headerRef = useRef<HTMLDivElement>(null)
@@ -64,7 +64,7 @@ const PerpetualBanner = () => {
       <S.Inner>
         <S.LeftWrapper>
           <S.StyledSubheading ref={headerRef}>{t('Decentralized Farming')}</S.StyledSubheading>
-          <Header width={['160px', '160px', 'auto']}>{t('Up to 15% Farming Bonus')}</Header>
+          <Header width={['160px', '160px', 'auto']}>{t('Up to 25% Farming Bonus')}</Header>
           <Link href={perpetualUrl} external>
             <Button>
               <Text color="invertedContrast" bold fontSize="16px" mr="4px">
