@@ -223,12 +223,12 @@ const config: (
         },
         {
           label: t('DeFi'),
-          href: 'https://defi.mindchain.info/',
+          href: 'https://mindchainwallet.com/login/',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
         {
           label: t('Twitter'),
-          href: 'https://twitter.com/MindChain1',
+          href: 'https://twitter.com/Mindchain_Swap',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
       ].map((item) => addMenuItemSupported(item, chainId)),

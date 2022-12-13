@@ -19,13 +19,8 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
         href: 'https://mindchain.info/blog',
       },
       {
-        label: t('Docs'),
-        href: 'https://mindchain.info/docs',
-      },
-     
-      {
         label: t('Join DeFi'),
-        href: 'https://defi.mindchain.info/',
+        href: 'https://mindchainwallet.com/login/',
       },
     ],
   },
@@ -41,12 +36,12 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
         href: 'https://coinmooner.com/coin/mindchain-coin-mind',
       },
       {
-        label: t('ApeSpace'),
-        href: 'https://apespace.io/bsc/0x258ea33a949d8562a2683e1c54d4baead2949f9e?',
+        label: t('CoinmarketCap'),
+        href: 'https://coinmarketcap.com/currencies/mindchain/',
       },
       {
-        label: t('DexGuru'),
-        href: 'https://dex.guru/token/0x258ea33a949d8562a2683e1c54d4baead2949f9e-bsc',
+        label: t('Wallet'),
+        href: 'https://mindchainwallet.com/login/',
       },
     ],
   },

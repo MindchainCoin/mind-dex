@@ -72,7 +72,7 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
         </Flex>
         <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
         <StyledToolsContainer
-          data-theme="dark"
+          data-theme="light"
           order={[1, null, 3]}
           flexDirection={["column", null, "row"]}
           justifyContent="space-between"
@@ -94,7 +94,7 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
             <Button
               data-theme="light"
               as="a"
-              href="https://pancakeswap.finance/swap?outputCurrency=0x258Ea33a949D8562A2683e1C54D4bAeAd2949F9E&chainId=56"
+              href="https://www.mindchainswap.com/swap"
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color="backgroundAlt" />}
