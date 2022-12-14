@@ -101,7 +101,36 @@ export const socials = [
   {
     label: "Telegram",
     icon: TelegramIcon,
-    href: "https://t.me/mindchainMIND",
+    items: [
+      {
+        label: "English",
+        href: "https://t.me/mindchainMIND",
+      },
+      {
+        label: "Announcements",
+        href: "https://t.me/mindchain1",
+      },
+      {
+        label: "Bahasa Indonesia",
+        href: "https://t.me/MindchainIndonesia",
+      },
+      {
+        label: "Português",
+        href: "https://t.me/PancakeSwapPortuguese",
+      },
+      {
+        label: "Bangladesh",
+        href: "https://t.me/MindchainBD",
+      },
+      {
+        label: "Filipino",
+        href: "https://t.me/MindchainPh",
+      },
+      {
+        label: "हिन्दी",
+        href: "https://t.me/MindchainINDIA",
+      },
+    ],
   },
   {
     label: "LinkedIn",
